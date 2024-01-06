@@ -1,0 +1,219 @@
+body{
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: left;
+}
+label {
+    margin-bottom: 0;
+    font-size: 2.8rem;
+}
+.parentContainer{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100%;
+}
+.topDiv{
+    padding-top: 0.5cm;
+    padding-inline: 0.1cm;
+}
+.logoDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+.logo{
+    width:1.6cm;
+    height:1.6cm;
+}
+.toggle-icon{
+    width: 1cm;
+    height: 0.5cm;
+}
+.toggleDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.toggleText{
+    font-size: 1.9rem;
+    padding-right: 15px;
+}
+.infoDiv{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 6vh;
+    padding-bottom: 3vh;
+}
+.jobTitlesDiv{
+    display: flex;
+    flex-direction: column;
+    color: #ff7900;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.contactInfoDiv{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    justify-content: space-evenly;
+    position: relative;
+}
+.contactInfoCardDiv{
+    display: flex; 
+    flex-direction: column;  
+    align-items: center; 
+    /* justify-content: center; */
+    flex: 1;
+    width:30%;
+}
+.ib-footer{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    font-size: bold;
+    padding-bottom: 1vh;
+}
+.fullNameLabel{
+    font-size: 4rem;
+    font-weight: bold;
+    padding-bottom: 2rem;
+    color: white;
+}
+p{
+    text-align: center;
+    font-size: 2.19rem;
+    word-wrap: break-word;
+    width: 100%;
+    
+}
+.icons{
+    font-size: 3rem;
+}
+.iconsLabel{
+    margin-bottom: 0;
+    margin-top: 10%;
+    font-size: 2rem;
+    color: white;
+}
+#powered-by {
+    color: white;
+}
+.contact-image{
+    width: 7rem;
+    height: 7rem;
+    padding-top: 0;
+}
+.qrDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.qrText{
+    padding-bottom: 0;
+    margin: 0;
+    font-size: 1.2rem;
+}
+@media screen and (max-width:500px) {
+    .jobTitlesDiv{
+        padding-left: 0.1cm;
+        margin-bottom: 0.2cm;
+    }
+    .jobTitleLabel{
+        font-size: 0.45cm;
+    }
+    .fullNameLabel{
+        font-size: 0.5cm;
+        padding-left: 0.1cm;
+        padding-bottom: 0.3cm;
+    }
+    p{
+        font-size: 1rem;
+        word-wrap: break-word;
+    }
+    .contactInfoDiv{
+        display: flex;
+        flex-direction: row;
+        row-gap: 0.5cm;
+    }
+    .contactInfoCardDiv{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        row-gap: 0.1cm;
+    }
+    .iconsLabel{
+        margin-bottom: 0.5cm;
+        margin-top: 0.05cm;
+        font-size: 0.4cm;
+    }
+    .contact-image{
+        height:50px;
+        width:50px;
+    }
+    .toggleText{
+        font-size: 0.4cm;
+        padding-right: 0.4cm;
+        padding-top: 0.33cm;
+        display: table-cell;
+        vertical-align: middle;
+        color: white;
+    }
+    .cardMainDiv{
+        position: relative;
+        min-height: 12cm;
+        max-height: 12cm;
+        min-width: 9cm;
+        max-width: 9cm;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        border: 3px solid black;
+        align-self: center;
+        justify-content: space-between;
+        row-gap: 0.5cm;
+    }
+    .ib-footer{
+        margin-top: 0.7cm;
+        font-size: 0.3cm;
+        color: black;
+        font-weight: bold;
+    }
+    html, body {
+        height: 100%;
+        padding: 0;
+    }
+    html {
+        display: table;
+        margin: auto;
+    }
+    body {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .parentContainer{
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        min-height: 12cm;
+        max-height: 12cm;
+        min-width: 9cm;
+        max-width: 9cm;
+        background-color: black;
+    }
+    .topDiv{
+        padding-top: 0.2cm;
+        min-width: 8.5cm;
+        max-width: 8.5cm;
+        background-color: black;
+    }
+}
