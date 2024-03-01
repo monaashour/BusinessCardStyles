@@ -14,11 +14,13 @@ function toggleTheme(e) {
         themeStylesheet.href = themeSheets.light;
         toggleTextLabel.innerText = 'Dark Mode';
         images.forEach((img)=>{img.src = img.src.replace('BC_Black', 'BC_White')});
+	document.body.style.backgroundColor = 'white';
     }
     else {
         themeStylesheet.href = themeSheets.dark;
         toggleTextLabel.innerText = 'Light Mode';
         images.forEach((img)=>{img.src = img.src.replace('BC_White', 'BC_Black')});
+        document.body.style.backgroundColor = 'black';
     }
     return false;
 }
