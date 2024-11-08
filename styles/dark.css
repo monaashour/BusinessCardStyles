@@ -3,6 +3,8 @@ body{
     font-size: 2rem;
     font-weight: 700;
     text-align: left;
+    padding: 0;
+    margin: 0;
 }
 label {
     margin-bottom: 0;
@@ -26,8 +28,8 @@ label {
     align-items: start;
 }
 .logo{
-    width:1.6cm;
-    height:1.6cm;
+    max-width: 3cm;
+    //max-height: 1.6cm;
 }
 .toggle-icon{
     width: 1cm;
@@ -169,10 +171,10 @@ p{
     }
     .cardMainDiv{
         position: relative;
-        min-height: 12cm;
-        max-height: 12cm;
-        min-width: 9cm;
-        max-width: 9cm;
+        min-height: 17cm;
+        max-height: 17cm;
+        min-width: 11cm;
+        max-width: 11cm;
         height: fit-content;
         display: flex;
         flex-direction: column;
