@@ -11,25 +11,29 @@ label {
     font-size: 2.8rem;
 }
 .parentContainer{
-    display: flex; 
+    border: 3px black solid;
+    padding: 1rem;
+    box-sizing: border-box;
     justify-content: center;
     align-items: center;
     position: relative;
-    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
 }
 .topDiv{
-    padding-top: 0.5cm;
-    padding-inline: 0.1cm;
+    min-width: 100px;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 .logoDiv{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: start;
+    align-items: center;
 }
 .logo{
     max-width: 3cm;
-    //max-height: 1.6cm;
 }
 .toggle-icon{
     width: 1cm;
@@ -39,10 +43,12 @@ label {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 .toggleText{
     font-size: 1.9rem;
     padding-right: 15px;
+    margin: 0;
 }
 .infoDiv{
     display: flex;
@@ -68,8 +74,7 @@ label {
 .contactInfoCardDiv{
     display: flex; 
     flex-direction: column;  
-    align-items: center; 
-    /* justify-content: center; */
+    align-items: center;
     flex: 1;
     width:30%;
 }
@@ -129,7 +134,7 @@ p{
         margin-bottom: 0.2cm;
     }
     .jobTitleLabel{
-        font-size: 0.45cm;
+        font-size: 1rem;
     }
     .fullNameLabel{
         font-size: 0.5cm;
@@ -163,24 +168,9 @@ p{
     .toggleText{
         font-size: 0.4cm;
         padding-right: 0.4cm;
-        padding-top: 0.33cm;
         display: table-cell;
         vertical-align: middle;
         color: white;
-    }
-    .cardMainDiv{
-        position: relative;
-        min-height: 17cm;
-        max-height: 17cm;
-        min-width: 11cm;
-        max-width: 11cm;
-        height: fit-content;
-        display: flex;
-        flex-direction: column;
-        border: 3px solid black;
-        align-self: center;
-        justify-content: space-between;
-        row-gap: 0.5cm;
     }
     .ib-footer{
         margin-top: 0.7cm;
@@ -201,20 +191,14 @@ p{
         vertical-align: middle;
     }
     .parentContainer{
-        display: flex; 
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        min-height: 12cm;
-        max-height: 12cm;
-        min-width: 9cm;
-        max-width: 9cm;
+        min-height: 28rem;
+        max-height: 40rem;
+        min-width: 21rem;
+        max-width: 21rem;
         background-color: black;
     }
     .topDiv{
-        padding-top: 0.2cm;
-        min-width: 8.5cm;
-        max-width: 8.5cm;
+        flex: 1 1 auto;
         background-color: black;
     }
 }
