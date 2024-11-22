@@ -33,7 +33,7 @@ label {
     align-items: center;
 }
 .logo{
-    max-width: 3cm;
+    height: 7rem;
 }
 .toggle-icon{
     width: 1cm;
@@ -123,6 +123,9 @@ p{
     font-size: 1.2rem;
 }
 @media screen and (max-width:500px) {
+    .logo{
+        height:50px;
+    }
     .jobTitlesDiv{
         padding-left: 0.1cm;
         margin-bottom: 0.2cm;
