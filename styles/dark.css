@@ -33,7 +33,7 @@ label {
     align-items: center;
 }
 .logo{
-    height: 7rem;
+    height: 8rem;
 }
 .toggle-icon{
     width: 1cm;
@@ -113,8 +113,8 @@ p{
     color: white;
 }
 .contact-image{
-    width: 7rem;
-    height: 7rem;
+    width: 6rem;
+    height: 6rem;
     padding-top: 0;
 }
 .qrDiv{
@@ -130,7 +130,7 @@ p{
 }
 @media screen and (max-width:500px) {
     .logo{
-        height:50px;
+        height: 60px;
     }
     .jobTitlesDiv{
         padding-left: 0.1cm;
@@ -165,8 +165,8 @@ p{
         font-size: 0.4cm;
     }
     .contact-image{
-        height:50px;
-        width:50px;
+        height:40px;
+        width:40px;
     }
     .toggleText{
         font-size: 0.4cm;
